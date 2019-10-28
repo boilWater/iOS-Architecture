@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "FYRouter+FYRouterModuleEditorActions.h"
+#import "FYRouter+FYRouterModuleCameraActions.h"
+
 
 @interface ViewController ()
 
@@ -17,7 +20,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
+
+
+#pragma mark - Response
+
+- (IBAction)clickEditorWithEvents:(UIButton *)sender {
+    UIViewController *editorViewController = [[FYRouter shareInstance] Editor_ShowViewController];
+       
+   [self presentViewController:editorViewController animated:true completion:^{
+       
+   }];
+}
+
+- (IBAction)clickCameraWithEvents:(UIButton *)sender {
+    UIViewController *cameraViewController = [[FYRouter shareInstance] Camera_PresentImage:[UIImage imageNamed:@"home_desert_landscape"]];
+    
+    [self presentViewController:cameraViewController animated:true completion:^{
+        
+    }];
+    
+}
+
+
+
+
+#pragma mark - Lazying
 
 
 @end

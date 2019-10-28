@@ -17,6 +17,13 @@
 		840FA6F12362F5DE00800E54 /* FYRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA6F02362F5DE00800E54 /* FYRouterTests.m */; };
 		840FA6FC2362F5DE00800E54 /* FYRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA6FB2362F5DE00800E54 /* FYRouterUITests.m */; };
 		840FA70D2362F65000800E54 /* FYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA70C2362F65000800E54 /* FYRouter.m */; };
+		840FA71723642C4200800E54 /* Target_Editor.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA71623642C4200800E54 /* Target_Editor.m */; };
+		840FA71A23642CB900800E54 /* Target_Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA71923642CB900800E54 /* Target_Camera.m */; };
+		840FA71D23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA71C23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m */; };
+		840FA72823642EB200800E54 /* FYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA72723642EB200800E54 /* FYCameraViewController.m */; };
+		840FA72C23642ED200800E54 /* FYEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA72B23642ED200800E54 /* FYEditorViewController.m */; };
+		84FCC7F42366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCC7F32366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m */; };
+		84FCC7F6236702A10067649F /* home_desert_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FCC7F5236702A10067649F /* home_desert_landscape.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,19 @@
 		840FA6FD2362F5DE00800E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840FA70B2362F65000800E54 /* FYRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYRouter.h; sourceTree = "<group>"; };
 		840FA70C2362F65000800E54 /* FYRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYRouter.m; sourceTree = "<group>"; };
+		840FA71523642C4200800E54 /* Target_Editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Editor.h; sourceTree = "<group>"; };
+		840FA71623642C4200800E54 /* Target_Editor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Editor.m; sourceTree = "<group>"; };
+		840FA71823642CB900800E54 /* Target_Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Camera.h; sourceTree = "<group>"; };
+		840FA71923642CB900800E54 /* Target_Camera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Camera.m; sourceTree = "<group>"; };
+		840FA71B23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter+FYRouterModuleEditorActions.h"; sourceTree = "<group>"; };
+		840FA71C23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FYRouter+FYRouterModuleEditorActions.m"; sourceTree = "<group>"; };
+		840FA72623642EB200800E54 /* FYCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYCameraViewController.h; sourceTree = "<group>"; };
+		840FA72723642EB200800E54 /* FYCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYCameraViewController.m; sourceTree = "<group>"; };
+		840FA72A23642ED200800E54 /* FYEditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYEditorViewController.h; sourceTree = "<group>"; };
+		840FA72B23642ED200800E54 /* FYEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYEditorViewController.m; sourceTree = "<group>"; };
+		84FCC7F22366FC470067649F /* FYRouter+FYRouterModuleCameraActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter+FYRouterModuleCameraActions.h"; sourceTree = "<group>"; };
+		84FCC7F32366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FYRouter+FYRouterModuleCameraActions.m"; sourceTree = "<group>"; };
+		84FCC7F5236702A10067649F /* home_desert_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_desert_landscape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +128,9 @@
 		840FA6D32362F5DE00800E54 /* FYRouter */ = {
 			isa = PBXGroup;
 			children = (
+				84FCC7F02366FAE40067649F /* Resources */,
+				840FA72223642E8500800E54 /* Editor */,
+				840FA72123642E7E00800E54 /* Camera */,
 				840FA6D42362F5DE00800E54 /* AppDelegate.h */,
 				840FA6D52362F5DE00800E54 /* AppDelegate.m */,
 				840FA6D72362F5DE00800E54 /* SceneDelegate.h */,
@@ -152,10 +175,116 @@
 		840FA70A2362F62000800E54 /* Route */ = {
 			isa = PBXGroup;
 			children = (
+				840FA70F2363F97D00800E54 /* ModuleEditor */,
+				840FA70E2363F95400800E54 /* ModuleCamera */,
 				840FA70B2362F65000800E54 /* FYRouter.h */,
 				840FA70C2362F65000800E54 /* FYRouter.m */,
 			);
 			path = Route;
+			sourceTree = "<group>";
+		};
+		840FA70E2363F95400800E54 /* ModuleCamera */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC7F22366FC470067649F /* FYRouter+FYRouterModuleCameraActions.h */,
+				84FCC7F32366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m */,
+			);
+			path = ModuleCamera;
+			sourceTree = "<group>";
+		};
+		840FA70F2363F97D00800E54 /* ModuleEditor */ = {
+			isa = PBXGroup;
+			children = (
+				840FA71B23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.h */,
+				840FA71C23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m */,
+			);
+			path = ModuleEditor;
+			sourceTree = "<group>";
+		};
+		840FA72123642E7E00800E54 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				841724512366D7E100BE1F43 /* Actions */,
+				840FA72523642E9800800E54 /* ViewController */,
+				840FA72423642E9200800E54 /* View */,
+				840FA72323642E8C00800E54 /* Model */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		840FA72223642E8500800E54 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				841724502366D7D600BE1F43 /* Actions */,
+				840FA72923642EB900800E54 /* ViewController */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		840FA72323642E8C00800E54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		840FA72423642E9200800E54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		840FA72523642E9800800E54 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				840FA72623642EB200800E54 /* FYCameraViewController.h */,
+				840FA72723642EB200800E54 /* FYCameraViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		840FA72923642EB900800E54 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				840FA72A23642ED200800E54 /* FYEditorViewController.h */,
+				840FA72B23642ED200800E54 /* FYEditorViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		841724502366D7D600BE1F43 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				840FA71523642C4200800E54 /* Target_Editor.h */,
+				840FA71623642C4200800E54 /* Target_Editor.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		841724512366D7E100BE1F43 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				840FA71823642CB900800E54 /* Target_Camera.h */,
+				840FA71923642CB900800E54 /* Target_Camera.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		84FCC7F02366FAE40067649F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC7F12366FAEF0067649F /* Home */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84FCC7F12366FAEF0067649F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC7F5236702A10067649F /* home_desert_landscape.png */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840FA6E42362F5DE00800E54 /* LaunchScreen.storyboard in Resources */,
+				84FCC7F6236702A10067649F /* home_desert_landscape.png in Resources */,
 				840FA6E12362F5DE00800E54 /* Assets.xcassets in Resources */,
 				840FA6DF2362F5DE00800E54 /* Main.storyboard in Resources */,
 			);
@@ -290,9 +420,15 @@
 			files = (
 				840FA6DC2362F5DE00800E54 /* ViewController.m in Sources */,
 				840FA6D62362F5DE00800E54 /* AppDelegate.m in Sources */,
+				840FA72823642EB200800E54 /* FYCameraViewController.m in Sources */,
+				840FA71D23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m in Sources */,
 				840FA6E72362F5DE00800E54 /* main.m in Sources */,
+				84FCC7F42366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m in Sources */,
 				840FA6D92362F5DE00800E54 /* SceneDelegate.m in Sources */,
+				840FA72C23642ED200800E54 /* FYEditorViewController.m in Sources */,
+				840FA71723642C4200800E54 /* Target_Editor.m in Sources */,
 				840FA70D2362F65000800E54 /* FYRouter.m in Sources */,
+				840FA71A23642CB900800E54 /* Target_Camera.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

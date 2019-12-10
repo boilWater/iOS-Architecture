@@ -9,8 +9,6 @@
 #import "FYRouter.h"
 #import <objc/runtime.h>
 
-static NSString * const kFYRouterParamtersTargetModuleName = @"kFYRouterParamtersTargetModuleName";
-
 
 @interface FYRouter ()
 

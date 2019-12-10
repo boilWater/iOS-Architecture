@@ -11,19 +11,16 @@
 
 @implementation Target_Camera
 
-- (UIViewController *)Action_nativeCameraPresentImage:(NSDictionary *)paramters {
-    FYCameraViewController *cameraPageView = [[FYCameraViewController alloc] init];
-    cameraPageView.modalPresentationStyle = UIModalPresentationFullScreen;
+- (UIViewController *)Action_Category_ViewController:(NSDictionary *)paramters {
+    FYCameraViewController *cameraPage = [[FYCameraViewController alloc] init];
+    cameraPage.modalPresentationStyle = UIModalPresentationFullScreen;
     
-    UIImage *pImage = [paramters objectForKey:@"image"];
-    cameraPageView.backgroundImageView.image = pImage;
-    
-    if ([cameraPageView isKindOfClass:[UIViewController class]]) {
-        return cameraPageView;
-    }else {
-        return [UIViewController new];
+    if ([cameraPage isKindOfClass:[UIViewController class]]) {
+        return cameraPage;
     }
     
+    return [UIViewController new];
 }
+
 
 @end

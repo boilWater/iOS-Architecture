@@ -11,7 +11,7 @@
 
 @interface Target_Camera : NSObject
 
-- (UIViewController *)Action_nativeCameraPresentImage:(NSDictionary *)paramters;
+- (UIViewController *)Action_Category_ViewController:(NSDictionary *)paramters;
 
 @end
 

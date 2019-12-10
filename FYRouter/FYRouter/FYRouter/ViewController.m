@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "FYRouter+FYRouterModuleEditorActions.h"
-#import "FYRouter+FYRouterModuleCameraActions.h"
+#import "FYRouter+EditorModuleActions.h"
+#import "FYRouter+CameraModuleActions.h"
 
 
 @interface ViewController ()
@@ -35,7 +35,7 @@
 }
 
 - (IBAction)clickCameraWithEvents:(UIButton *)sender {
-    UIViewController *cameraViewController = [[FYRouter shareInstance] Camera_PresentImage:[UIImage imageNamed:@"home_desert_landscape"]];
+    UIViewController *cameraViewController = [[FYRouter shareInstance] Camera_ShowViewController];
     
     [self presentViewController:cameraViewController animated:true completion:^{
         

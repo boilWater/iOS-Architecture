@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor blueColor];
-    self.title = @"Edit Page";
+    //self.title = @"Edit Page";
     
     UILabel *titleLab = [[UILabel alloc] init];
     titleLab.frame = CGRectMake(0, 200, 300, 400);

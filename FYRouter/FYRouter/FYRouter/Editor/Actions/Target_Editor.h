@@ -11,9 +11,11 @@
 
 @interface Target_Editor : NSObject
 
-- (UIViewController *)Action_nativeEditorViewController:(NSDictionary *)paramters;
+- (UIViewController *)Action_Category_ViewController:(NSDictionary *)paramters;
 
-- (id)Action_nativeEditorPresentImage:(NSDictionary *)paramters;
+- (UIViewController *)Action_Category_PreViewController:(NSDictionary *)paramters;
+
+- (void)Action_Category_ShowViewController;
 
 @end
 

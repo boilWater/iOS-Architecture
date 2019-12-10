@@ -19,10 +19,10 @@
 		840FA70D2362F65000800E54 /* FYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA70C2362F65000800E54 /* FYRouter.m */; };
 		840FA71723642C4200800E54 /* Target_Editor.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA71623642C4200800E54 /* Target_Editor.m */; };
 		840FA71A23642CB900800E54 /* Target_Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA71923642CB900800E54 /* Target_Camera.m */; };
-		840FA71D23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA71C23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m */; };
 		840FA72823642EB200800E54 /* FYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA72723642EB200800E54 /* FYCameraViewController.m */; };
 		840FA72C23642ED200800E54 /* FYEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA72B23642ED200800E54 /* FYEditorViewController.m */; };
-		84FCC7F42366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCC7F32366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m */; };
+		848154CB239E575400783A18 /* FYRouter+EditorModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 848154CA239E575400783A18 /* FYRouter+EditorModuleActions.m */; };
+		848154CE239E57A300783A18 /* FYRouter+CameraModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 848154CD239E57A300783A18 /* FYRouter+CameraModuleActions.m */; };
 		84FCC7F6236702A10067649F /* home_desert_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FCC7F5236702A10067649F /* home_desert_landscape.png */; };
 /* End PBXBuildFile section */
 
@@ -68,14 +68,15 @@
 		840FA71623642C4200800E54 /* Target_Editor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Editor.m; sourceTree = "<group>"; };
 		840FA71823642CB900800E54 /* Target_Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Camera.h; sourceTree = "<group>"; };
 		840FA71923642CB900800E54 /* Target_Camera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Camera.m; sourceTree = "<group>"; };
-		840FA71B23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter+FYRouterModuleEditorActions.h"; sourceTree = "<group>"; };
-		840FA71C23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FYRouter+FYRouterModuleEditorActions.m"; sourceTree = "<group>"; };
 		840FA72623642EB200800E54 /* FYCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYCameraViewController.h; sourceTree = "<group>"; };
 		840FA72723642EB200800E54 /* FYCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYCameraViewController.m; sourceTree = "<group>"; };
 		840FA72A23642ED200800E54 /* FYEditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYEditorViewController.h; sourceTree = "<group>"; };
 		840FA72B23642ED200800E54 /* FYEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYEditorViewController.m; sourceTree = "<group>"; };
-		84FCC7F22366FC470067649F /* FYRouter+FYRouterModuleCameraActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter+FYRouterModuleCameraActions.h"; sourceTree = "<group>"; };
-		84FCC7F32366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FYRouter+FYRouterModuleCameraActions.m"; sourceTree = "<group>"; };
+		848154C9239E575400783A18 /* FYRouter+EditorModuleActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter+EditorModuleActions.h"; sourceTree = "<group>"; };
+		848154CA239E575400783A18 /* FYRouter+EditorModuleActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FYRouter+EditorModuleActions.m"; sourceTree = "<group>"; };
+		848154CC239E57A300783A18 /* FYRouter+CameraModuleActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter+CameraModuleActions.h"; sourceTree = "<group>"; };
+		848154CD239E57A300783A18 /* FYRouter+CameraModuleActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FYRouter+CameraModuleActions.m"; sourceTree = "<group>"; };
+		848154CF239E64C300783A18 /* FYRouter-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter-PrefixHeader.pch"; sourceTree = "<group>"; };
 		84FCC7F5236702A10067649F /* home_desert_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_desert_landscape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,30 +176,13 @@
 		840FA70A2362F62000800E54 /* Route */ = {
 			isa = PBXGroup;
 			children = (
-				840FA70F2363F97D00800E54 /* ModuleEditor */,
-				840FA70E2363F95400800E54 /* ModuleCamera */,
+				848154C8239E56F200783A18 /* Camera_Category */,
+				848154C7239E56D800783A18 /* Editor_Category */,
 				840FA70B2362F65000800E54 /* FYRouter.h */,
 				840FA70C2362F65000800E54 /* FYRouter.m */,
+				848154CF239E64C300783A18 /* FYRouter-PrefixHeader.pch */,
 			);
 			path = Route;
-			sourceTree = "<group>";
-		};
-		840FA70E2363F95400800E54 /* ModuleCamera */ = {
-			isa = PBXGroup;
-			children = (
-				84FCC7F22366FC470067649F /* FYRouter+FYRouterModuleCameraActions.h */,
-				84FCC7F32366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m */,
-			);
-			path = ModuleCamera;
-			sourceTree = "<group>";
-		};
-		840FA70F2363F97D00800E54 /* ModuleEditor */ = {
-			isa = PBXGroup;
-			children = (
-				840FA71B23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.h */,
-				840FA71C23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m */,
-			);
-			path = ModuleEditor;
 			sourceTree = "<group>";
 		};
 		840FA72123642E7E00800E54 /* Camera */ = {
@@ -269,6 +253,24 @@
 				840FA71923642CB900800E54 /* Target_Camera.m */,
 			);
 			path = Actions;
+			sourceTree = "<group>";
+		};
+		848154C7239E56D800783A18 /* Editor_Category */ = {
+			isa = PBXGroup;
+			children = (
+				848154C9239E575400783A18 /* FYRouter+EditorModuleActions.h */,
+				848154CA239E575400783A18 /* FYRouter+EditorModuleActions.m */,
+			);
+			path = Editor_Category;
+			sourceTree = "<group>";
+		};
+		848154C8239E56F200783A18 /* Camera_Category */ = {
+			isa = PBXGroup;
+			children = (
+				848154CC239E57A300783A18 /* FYRouter+CameraModuleActions.h */,
+				848154CD239E57A300783A18 /* FYRouter+CameraModuleActions.m */,
+			);
+			path = Camera_Category;
 			sourceTree = "<group>";
 		};
 		84FCC7F02366FAE40067649F /* Resources */ = {
@@ -421,9 +423,9 @@
 				840FA6DC2362F5DE00800E54 /* ViewController.m in Sources */,
 				840FA6D62362F5DE00800E54 /* AppDelegate.m in Sources */,
 				840FA72823642EB200800E54 /* FYCameraViewController.m in Sources */,
-				840FA71D23642D1000800E54 /* FYRouter+FYRouterModuleEditorActions.m in Sources */,
+				848154CE239E57A300783A18 /* FYRouter+CameraModuleActions.m in Sources */,
 				840FA6E72362F5DE00800E54 /* main.m in Sources */,
-				84FCC7F42366FC470067649F /* FYRouter+FYRouterModuleCameraActions.m in Sources */,
+				848154CB239E575400783A18 /* FYRouter+EditorModuleActions.m in Sources */,
 				840FA6D92362F5DE00800E54 /* SceneDelegate.m in Sources */,
 				840FA72C23642ED200800E54 /* FYEditorViewController.m in Sources */,
 				840FA71723642C4200800E54 /* Target_Editor.m in Sources */,
@@ -598,6 +600,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Utils/Route/FYRouter-PrefixHeader.pch";
 				INFOPLIST_FILE = FYRouter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -614,6 +618,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Utils/Route/FYRouter-PrefixHeader.pch";
 				INFOPLIST_FILE = FYRouter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -11,5 +11,7 @@
 
 @interface FYEditorViewController : UIViewController
 
+@property (nonatomic, strong) UIImage *previewImage;
+
 @end
 

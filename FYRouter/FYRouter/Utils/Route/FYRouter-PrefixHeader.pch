@@ -1,0 +1,21 @@
+//
+//  FYRouter-PrefixHeader.pch
+//  FYRouter
+//
+//  Created by admin on 2019/12/9.
+//  Copyright © 2019 admin. All rights reserved.
+//
+
+#ifndef FYRouter_PrefixHeader_pch
+#define FYRouter_PrefixHeader_pch
+
+//Target module name
+#define kFYRouterParamtersTargetModuleName @"kFYRouterParamtersTargetModuleName"
+
+//Paramters 
+#define KFYRoyterParamtersDictionary @"KFYRoyterParamtersDictionary"
+#define kFYRouterParamtersImage @"kFYRouterParamtersImage"
+#define kFYRouterParamtersTitle @"kFYRouterParamtersTitle"
+#define kFYRouterParamtersString @"kFYRouterParamtersString"
+
+#endif /* FYRouter_PrefixHeader_pch */

@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840FA6D62362F5DE00800E54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA6D52362F5DE00800E54 /* AppDelegate.m */; };
+		840FA6D92362F5DE00800E54 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA6D82362F5DE00800E54 /* SceneDelegate.m */; };
+		840FA6DC2362F5DE00800E54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA6DB2362F5DE00800E54 /* ViewController.m */; };
+		840FA6DF2362F5DE00800E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840FA6DD2362F5DE00800E54 /* Main.storyboard */; };
+		840FA6E12362F5DE00800E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840FA6E02362F5DE00800E54 /* Assets.xcassets */; };
+		840FA6E42362F5DE00800E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840FA6E22362F5DE00800E54 /* LaunchScreen.storyboard */; };
+		840FA6E72362F5DE00800E54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA6E62362F5DE00800E54 /* main.m */; };
+		840FA6F12362F5DE00800E54 /* FYRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA6F02362F5DE00800E54 /* FYRouterTests.m */; };
+		840FA6FC2362F5DE00800E54 /* FYRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA6FB2362F5DE00800E54 /* FYRouterUITests.m */; };
+		840FA70D2362F65000800E54 /* FYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA70C2362F65000800E54 /* FYRouter.m */; };
+		840FA71723642C4200800E54 /* Target_Editor.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA71623642C4200800E54 /* Target_Editor.m */; };
+		840FA71A23642CB900800E54 /* Target_Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA71923642CB900800E54 /* Target_Camera.m */; };
+		840FA72823642EB200800E54 /* FYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA72723642EB200800E54 /* FYCameraViewController.m */; };
+		840FA72C23642ED200800E54 /* FYEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FA72B23642ED200800E54 /* FYEditorViewController.m */; };
+		848154CB239E575400783A18 /* FYRouter+EditorModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 848154CA239E575400783A18 /* FYRouter+EditorModuleActions.m */; };
+		848154CE239E57A300783A18 /* FYRouter+CameraModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 848154CD239E57A300783A18 /* FYRouter+CameraModuleActions.m */; };
+		84FCC7F6236702A10067649F /* home_desert_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FCC7F5236702A10067649F /* home_desert_landscape.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840FA6ED2362F5DE00800E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840FA6C92362F5DE00800E54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840FA6D02362F5DE00800E54;
+			remoteInfo = FYRouter;
+		};
+		840FA6F82362F5DE00800E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840FA6C92362F5DE00800E54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840FA6D02362F5DE00800E54;
+			remoteInfo = FYRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840FA6D12362F5DE00800E54 /* FYRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840FA6D42362F5DE00800E54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840FA6D52362F5DE00800E54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840FA6D72362F5DE00800E54 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		840FA6D82362F5DE00800E54 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		840FA6DA2362F5DE00800E54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840FA6DB2362F5DE00800E54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		840FA6DE2362F5DE00800E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840FA6E02362F5DE00800E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840FA6E32362F5DE00800E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840FA6E52362F5DE00800E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840FA6E62362F5DE00800E54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840FA6EC2362F5DE00800E54 /* FYRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840FA6F02362F5DE00800E54 /* FYRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYRouterTests.m; sourceTree = "<group>"; };
+		840FA6F22362F5DE00800E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840FA6F72362F5DE00800E54 /* FYRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840FA6FB2362F5DE00800E54 /* FYRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYRouterUITests.m; sourceTree = "<group>"; };
+		840FA6FD2362F5DE00800E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840FA70B2362F65000800E54 /* FYRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYRouter.h; sourceTree = "<group>"; };
+		840FA70C2362F65000800E54 /* FYRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYRouter.m; sourceTree = "<group>"; };
+		840FA71523642C4200800E54 /* Target_Editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Editor.h; sourceTree = "<group>"; };
+		840FA71623642C4200800E54 /* Target_Editor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Editor.m; sourceTree = "<group>"; };
+		840FA71823642CB900800E54 /* Target_Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Camera.h; sourceTree = "<group>"; };
+		840FA71923642CB900800E54 /* Target_Camera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Camera.m; sourceTree = "<group>"; };
+		840FA72623642EB200800E54 /* FYCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYCameraViewController.h; sourceTree = "<group>"; };
+		840FA72723642EB200800E54 /* FYCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYCameraViewController.m; sourceTree = "<group>"; };
+		840FA72A23642ED200800E54 /* FYEditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYEditorViewController.h; sourceTree = "<group>"; };
+		840FA72B23642ED200800E54 /* FYEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYEditorViewController.m; sourceTree = "<group>"; };
+		848154C9239E575400783A18 /* FYRouter+EditorModuleActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter+EditorModuleActions.h"; sourceTree = "<group>"; };
+		848154CA239E575400783A18 /* FYRouter+EditorModuleActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FYRouter+EditorModuleActions.m"; sourceTree = "<group>"; };
+		848154CC239E57A300783A18 /* FYRouter+CameraModuleActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter+CameraModuleActions.h"; sourceTree = "<group>"; };
+		848154CD239E57A300783A18 /* FYRouter+CameraModuleActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FYRouter+CameraModuleActions.m"; sourceTree = "<group>"; };
+		848154CF239E64C300783A18 /* FYRouter-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYRouter-PrefixHeader.pch"; sourceTree = "<group>"; };
+		84FCC7F5236702A10067649F /* home_desert_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_desert_landscape.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840FA6CE2362F5DE00800E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840FA6E92362F5DE00800E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840FA6F42362F5DE00800E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840FA6C82362F5DE00800E54 = {
+			isa = PBXGroup;
+			children = (
+				840FA7092362F61500800E54 /* Utils */,
+				840FA6D32362F5DE00800E54 /* FYRouter */,
+				840FA6EF2362F5DE00800E54 /* FYRouterTests */,
+				840FA6FA2362F5DE00800E54 /* FYRouterUITests */,
+				840FA6D22362F5DE00800E54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840FA6D22362F5DE00800E54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840FA6D12362F5DE00800E54 /* FYRouter.app */,
+				840FA6EC2362F5DE00800E54 /* FYRouterTests.xctest */,
+				840FA6F72362F5DE00800E54 /* FYRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840FA6D32362F5DE00800E54 /* FYRouter */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC7F02366FAE40067649F /* Resources */,
+				840FA72223642E8500800E54 /* Editor */,
+				840FA72123642E7E00800E54 /* Camera */,
+				840FA6D42362F5DE00800E54 /* AppDelegate.h */,
+				840FA6D52362F5DE00800E54 /* AppDelegate.m */,
+				840FA6D72362F5DE00800E54 /* SceneDelegate.h */,
+				840FA6D82362F5DE00800E54 /* SceneDelegate.m */,
+				840FA6DA2362F5DE00800E54 /* ViewController.h */,
+				840FA6DB2362F5DE00800E54 /* ViewController.m */,
+				840FA6DD2362F5DE00800E54 /* Main.storyboard */,
+				840FA6E02362F5DE00800E54 /* Assets.xcassets */,
+				840FA6E22362F5DE00800E54 /* LaunchScreen.storyboard */,
+				840FA6E52362F5DE00800E54 /* Info.plist */,
+				840FA6E62362F5DE00800E54 /* main.m */,
+			);
+			path = FYRouter;
+			sourceTree = "<group>";
+		};
+		840FA6EF2362F5DE00800E54 /* FYRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				840FA6F02362F5DE00800E54 /* FYRouterTests.m */,
+				840FA6F22362F5DE00800E54 /* Info.plist */,
+			);
+			path = FYRouterTests;
+			sourceTree = "<group>";
+		};
+		840FA6FA2362F5DE00800E54 /* FYRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840FA6FB2362F5DE00800E54 /* FYRouterUITests.m */,
+				840FA6FD2362F5DE00800E54 /* Info.plist */,
+			);
+			path = FYRouterUITests;
+			sourceTree = "<group>";
+		};
+		840FA7092362F61500800E54 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				840FA70A2362F62000800E54 /* Route */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		840FA70A2362F62000800E54 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				848154C8239E56F200783A18 /* Camera_Category */,
+				848154C7239E56D800783A18 /* Editor_Category */,
+				840FA70B2362F65000800E54 /* FYRouter.h */,
+				840FA70C2362F65000800E54 /* FYRouter.m */,
+				848154CF239E64C300783A18 /* FYRouter-PrefixHeader.pch */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		840FA72123642E7E00800E54 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				841724512366D7E100BE1F43 /* Actions */,
+				840FA72523642E9800800E54 /* ViewController */,
+				840FA72423642E9200800E54 /* View */,
+				840FA72323642E8C00800E54 /* Model */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		840FA72223642E8500800E54 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				841724502366D7D600BE1F43 /* Actions */,
+				840FA72923642EB900800E54 /* ViewController */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		840FA72323642E8C00800E54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		840FA72423642E9200800E54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		840FA72523642E9800800E54 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				840FA72623642EB200800E54 /* FYCameraViewController.h */,
+				840FA72723642EB200800E54 /* FYCameraViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		840FA72923642EB900800E54 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				840FA72A23642ED200800E54 /* FYEditorViewController.h */,
+				840FA72B23642ED200800E54 /* FYEditorViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		841724502366D7D600BE1F43 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				840FA71523642C4200800E54 /* Target_Editor.h */,
+				840FA71623642C4200800E54 /* Target_Editor.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		841724512366D7E100BE1F43 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				840FA71823642CB900800E54 /* Target_Camera.h */,
+				840FA71923642CB900800E54 /* Target_Camera.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		848154C7239E56D800783A18 /* Editor_Category */ = {
+			isa = PBXGroup;
+			children = (
+				848154C9239E575400783A18 /* FYRouter+EditorModuleActions.h */,
+				848154CA239E575400783A18 /* FYRouter+EditorModuleActions.m */,
+			);
+			path = Editor_Category;
+			sourceTree = "<group>";
+		};
+		848154C8239E56F200783A18 /* Camera_Category */ = {
+			isa = PBXGroup;
+			children = (
+				848154CC239E57A300783A18 /* FYRouter+CameraModuleActions.h */,
+				848154CD239E57A300783A18 /* FYRouter+CameraModuleActions.m */,
+			);
+			path = Camera_Category;
+			sourceTree = "<group>";
+		};
+		84FCC7F02366FAE40067649F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC7F12366FAEF0067649F /* Home */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84FCC7F12366FAEF0067649F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC7F5236702A10067649F /* home_desert_landscape.png */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840FA6D02362F5DE00800E54 /* FYRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840FA7002362F5DE00800E54 /* Build configuration list for PBXNativeTarget "FYRouter" */;
+			buildPhases = (
+				840FA6CD2362F5DE00800E54 /* Sources */,
+				840FA6CE2362F5DE00800E54 /* Frameworks */,
+				840FA6CF2362F5DE00800E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYRouter;
+			productName = FYRouter;
+			productReference = 840FA6D12362F5DE00800E54 /* FYRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840FA6EB2362F5DE00800E54 /* FYRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840FA7032362F5DE00800E54 /* Build configuration list for PBXNativeTarget "FYRouterTests" */;
+			buildPhases = (
+				840FA6E82362F5DE00800E54 /* Sources */,
+				840FA6E92362F5DE00800E54 /* Frameworks */,
+				840FA6EA2362F5DE00800E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840FA6EE2362F5DE00800E54 /* PBXTargetDependency */,
+			);
+			name = FYRouterTests;
+			productName = FYRouterTests;
+			productReference = 840FA6EC2362F5DE00800E54 /* FYRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840FA6F62362F5DE00800E54 /* FYRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840FA7062362F5DE00800E54 /* Build configuration list for PBXNativeTarget "FYRouterUITests" */;
+			buildPhases = (
+				840FA6F32362F5DE00800E54 /* Sources */,
+				840FA6F42362F5DE00800E54 /* Frameworks */,
+				840FA6F52362F5DE00800E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840FA6F92362F5DE00800E54 /* PBXTargetDependency */,
+			);
+			name = FYRouterUITests;
+			productName = FYRouterUITests;
+			productReference = 840FA6F72362F5DE00800E54 /* FYRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840FA6C92362F5DE00800E54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					840FA6D02362F5DE00800E54 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					840FA6EB2362F5DE00800E54 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 840FA6D02362F5DE00800E54;
+					};
+					840FA6F62362F5DE00800E54 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 840FA6D02362F5DE00800E54;
+					};
+				};
+			};
+			buildConfigurationList = 840FA6CC2362F5DE00800E54 /* Build configuration list for PBXProject "FYRouter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840FA6C82362F5DE00800E54;
+			productRefGroup = 840FA6D22362F5DE00800E54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840FA6D02362F5DE00800E54 /* FYRouter */,
+				840FA6EB2362F5DE00800E54 /* FYRouterTests */,
+				840FA6F62362F5DE00800E54 /* FYRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840FA6CF2362F5DE00800E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840FA6E42362F5DE00800E54 /* LaunchScreen.storyboard in Resources */,
+				84FCC7F6236702A10067649F /* home_desert_landscape.png in Resources */,
+				840FA6E12362F5DE00800E54 /* Assets.xcassets in Resources */,
+				840FA6DF2362F5DE00800E54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840FA6EA2362F5DE00800E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840FA6F52362F5DE00800E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840FA6CD2362F5DE00800E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840FA6DC2362F5DE00800E54 /* ViewController.m in Sources */,
+				840FA6D62362F5DE00800E54 /* AppDelegate.m in Sources */,
+				840FA72823642EB200800E54 /* FYCameraViewController.m in Sources */,
+				848154CE239E57A300783A18 /* FYRouter+CameraModuleActions.m in Sources */,
+				840FA6E72362F5DE00800E54 /* main.m in Sources */,
+				848154CB239E575400783A18 /* FYRouter+EditorModuleActions.m in Sources */,
+				840FA6D92362F5DE00800E54 /* SceneDelegate.m in Sources */,
+				840FA72C23642ED200800E54 /* FYEditorViewController.m in Sources */,
+				840FA71723642C4200800E54 /* Target_Editor.m in Sources */,
+				840FA70D2362F65000800E54 /* FYRouter.m in Sources */,
+				840FA71A23642CB900800E54 /* Target_Camera.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840FA6E82362F5DE00800E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840FA6F12362F5DE00800E54 /* FYRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840FA6F32362F5DE00800E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840FA6FC2362F5DE00800E54 /* FYRouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840FA6EE2362F5DE00800E54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840FA6D02362F5DE00800E54 /* FYRouter */;
+			targetProxy = 840FA6ED2362F5DE00800E54 /* PBXContainerItemProxy */;
+		};
+		840FA6F92362F5DE00800E54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840FA6D02362F5DE00800E54 /* FYRouter */;
+			targetProxy = 840FA6F82362F5DE00800E54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840FA6DD2362F5DE00800E54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840FA6DE2362F5DE00800E54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840FA6E22362F5DE00800E54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840FA6E32362F5DE00800E54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840FA6FE2362F5DE00800E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840FA6FF2362F5DE00800E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840FA7012362F5DE00800E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Utils/Route/FYRouter-PrefixHeader.pch";
+				INFOPLIST_FILE = FYRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Holleworld.FYRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840FA7022362F5DE00800E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Utils/Route/FYRouter-PrefixHeader.pch";
+				INFOPLIST_FILE = FYRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Holleworld.FYRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840FA7042362F5DE00800E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYRouterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Holleworld.FYRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYRouter.app/FYRouter";
+			};
+			name = Debug;
+		};
+		840FA7052362F5DE00800E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYRouterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Holleworld.FYRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYRouter.app/FYRouter";
+			};
+			name = Release;
+		};
+		840FA7072362F5DE00800E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Holleworld.FYRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYRouter;
+			};
+			name = Debug;
+		};
+		840FA7082362F5DE00800E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Holleworld.FYRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840FA6CC2362F5DE00800E54 /* Build configuration list for PBXProject "FYRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840FA6FE2362F5DE00800E54 /* Debug */,
+				840FA6FF2362F5DE00800E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840FA7002362F5DE00800E54 /* Build configuration list for PBXNativeTarget "FYRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840FA7012362F5DE00800E54 /* Debug */,
+				840FA7022362F5DE00800E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840FA7032362F5DE00800E54 /* Build configuration list for PBXNativeTarget "FYRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840FA7042362F5DE00800E54 /* Debug */,
+				840FA7052362F5DE00800E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840FA7062362F5DE00800E54 /* Build configuration list for PBXNativeTarget "FYRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840FA7072362F5DE00800E54 /* Debug */,
+				840FA7082362F5DE00800E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840FA6C92362F5DE00800E54 /* Project object */;
+}

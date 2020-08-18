@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		16AD24AF23608AB0004C8329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AD24AE23608AB0004C8329 /* AppDelegate.swift */; };
-		16AD24B123608AB0004C8329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AD24B023608AB0004C8329 /* SceneDelegate.swift */; };
-		16AD24B323608AB0004C8329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AD24B223608AB0004C8329 /* ViewController.swift */; };
 		16AD24B623608AB0004C8329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AD24B423608AB0004C8329 /* Main.storyboard */; };
 		16AD24B823608AB1004C8329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AD24B723608AB1004C8329 /* Assets.xcassets */; };
 		16AD24BB23608AB1004C8329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AD24B923608AB1004C8329 /* LaunchScreen.storyboard */; };
 		16AD24C623608AB1004C8329 /* FYNotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AD24C523608AB1004C8329 /* FYNotebookTests.swift */; };
 		16AD24D123608AB1004C8329 /* FYNotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AD24D023608AB1004C8329 /* FYNotebookUITests.swift */; };
+		843918B1238BE0FE00EC2132 /* FYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843918B0238BE0FE00EC2132 /* FYBaseViewController.swift */; };
+		843918B3238BE13F00EC2132 /* FYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843918B2238BE13F00EC2132 /* FYHomeViewController.swift */; };
+		843918B5238BE16500EC2132 /* FYNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843918B4238BE16500EC2132 /* FYNoteViewController.swift */; };
+		843918BA238C0C0D00EC2132 /* FYSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843918B9238C0C0D00EC2132 /* FYSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,6 @@
 /* Begin PBXFileReference section */
 		16AD24AB23608AB0004C8329 /* FYNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16AD24AE23608AB0004C8329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16AD24B023608AB0004C8329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		16AD24B223608AB0004C8329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16AD24B523608AB0004C8329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16AD24B723608AB1004C8329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16AD24BA23608AB1004C8329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,10 @@
 		16AD24CC23608AB1004C8329 /* FYNotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYNotebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16AD24D023608AB1004C8329 /* FYNotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYNotebookUITests.swift; sourceTree = "<group>"; };
 		16AD24D223608AB1004C8329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843918B0238BE0FE00EC2132 /* FYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYBaseViewController.swift; sourceTree = "<group>"; };
+		843918B2238BE13F00EC2132 /* FYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYHomeViewController.swift; sourceTree = "<group>"; };
+		843918B4238BE16500EC2132 /* FYNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYNoteViewController.swift; sourceTree = "<group>"; };
+		843918B9238C0C0D00EC2132 /* FYSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYSearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,9 @@
 		16AD24A223608AB0004C8329 = {
 			isa = PBXGroup;
 			children = (
+				843918AC238BDD1F00EC2132 /* Resource */,
+				843918AB238BDD1900EC2132 /* Third */,
+				843918AA238BDD1100EC2132 /* Utils */,
 				16AD24AD23608AB0004C8329 /* FYNotebook */,
 				16AD24C423608AB1004C8329 /* FYNotebookTests */,
 				16AD24CF23608AB1004C8329 /* FYNotebookUITests */,
@@ -99,9 +106,11 @@
 		16AD24AD23608AB0004C8329 /* FYNotebook */ = {
 			isa = PBXGroup;
 			children = (
+				843918B8238C0BE500EC2132 /* Search */,
+				843918AE238BDFDC00EC2132 /* Note */,
+				843918AD238BDFC500EC2132 /* Home */,
 				16AD24AE23608AB0004C8329 /* AppDelegate.swift */,
-				16AD24B023608AB0004C8329 /* SceneDelegate.swift */,
-				16AD24B223608AB0004C8329 /* ViewController.swift */,
+				843918B0238BE0FE00EC2132 /* FYBaseViewController.swift */,
 				16AD24B423608AB0004C8329 /* Main.storyboard */,
 				16AD24B723608AB1004C8329 /* Assets.xcassets */,
 				16AD24B923608AB1004C8329 /* LaunchScreen.storyboard */,
@@ -126,6 +135,51 @@
 				16AD24D223608AB1004C8329 /* Info.plist */,
 			);
 			path = FYNotebookUITests;
+			sourceTree = "<group>";
+		};
+		843918AA238BDD1100EC2132 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		843918AB238BDD1900EC2132 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		843918AC238BDD1F00EC2132 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		843918AD238BDFC500EC2132 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				843918B2238BE13F00EC2132 /* FYHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		843918AE238BDFDC00EC2132 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				843918B4238BE16500EC2132 /* FYNoteViewController.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		843918B8238C0BE500EC2132 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				843918B9238C0C0D00EC2132 /* FYSearchViewController.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16AD24B323608AB0004C8329 /* ViewController.swift in Sources */,
+				843918B1238BE0FE00EC2132 /* FYBaseViewController.swift in Sources */,
 				16AD24AF23608AB0004C8329 /* AppDelegate.swift in Sources */,
-				16AD24B123608AB0004C8329 /* SceneDelegate.swift in Sources */,
+				843918B3238BE13F00EC2132 /* FYHomeViewController.swift in Sources */,
+				843918B5238BE16500EC2132 /* FYNoteViewController.swift in Sources */,
+				843918BA238C0C0D00EC2132 /* FYSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C956R8584W;
 				INFOPLIST_FILE = FYNotebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C956R8584W;
 				INFOPLIST_FILE = FYNotebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
